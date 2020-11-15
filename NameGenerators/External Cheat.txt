@@ -1,0 +1,23 @@
+-start(base)
+-base(base2,base2,ext)
+Aimbot
+PerfectionBot
+Aim
+AimBuddies
+MikeCheats
+CheatingDB
+CheatEmpire
+DeadLand
+-base2(stop,stop,ext)
+ Cheat
+ Hack
+ Cheese
+ Exploit
+ Script
+ Bot
+ MultiHack
+-ext(stop)
+ Deluxe
+ Pro
+ Undetected
+ Cracked

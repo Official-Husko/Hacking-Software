@@ -1,0 +1,14 @@
+CompanyType
+	{
+	Specialization		"Cheats & Hacks for Games"
+	PerYear				0.2
+	Min					3
+	Max					6
+	Types
+		[
+			{
+			Software	"External Game Cheat"
+			Chance		0.5
+			}
+		]
+	}

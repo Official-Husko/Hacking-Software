@@ -1,0 +1,212 @@
+SoftwareType
+	{
+	Name			"Hacking OS"
+	Category		"Hacking"
+	Description		"Hacking Targeted Operating System"
+	NameGenerator   "HackingOS"
+	Categories
+		[
+			{
+			Name		"Computer"
+			Description	"For the table"
+			Popularity	1
+			Retention	72
+			TimeScale	1
+			Iterative	1
+			IdealPrice	200
+			Submarkets	[ 4; 4; 4]
+			}
+			{
+			Name		"Mini Computer"
+			Description	"The Multi Functional Mini Device"
+			LagBehind	5
+			Popularity	0.75
+			Retention	48
+			TimeScale	0.8
+			Iterative	1
+			IdealPrice	160
+			Submarkets	[ 4; 1; 0]
+			}
+		]
+	Random			0
+	OptimalDevTime	75
+	SubmarketNames	[ "Tools"; "Security"; "Customization" ]
+	NameGenerator	OS
+	Features
+		[
+			{
+			Name		System
+			Spec		System
+			DevTime		10
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
+			Dependencies    "Kernel"
+			Features
+				[
+					{
+					Name		"Multitasking"
+					Description "Let your users pretend they can multitask by having several applications open at any one time"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 0; 2 ]
+					}
+					{
+					Name		"Open Source"
+					Description "Open Sourced project which gives more customizablility and security"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 3; 3 ]
+					}
+					{
+					Name		"User accounts"
+					Description "Make a local user account"
+					DevTime		5
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 2; 0 ]
+					}
+					{
+					Name		"Tools"
+					Description	"Already Ship tools with it"
+					DevTime		5
+					Level		2
+					CodeArt		1
+					Submarkets	[ 3; 0; 1 ]
+					}
+					{
+					Name		"File encryption"
+					Description "Encrypt files so no one can steal your stuff"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"System recovery"
+					Description "Got hacked while trying to hack somebody or something? Don't worry there is system recovery"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"Virtualization"
+					Description "Run multiple OS at the same time"
+					DevTime		5
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 1; 0 ]
+					}
+					{
+					Name		"Code signing"
+					Description "Supports code signing"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"EXT4 journaling file system"
+					Description "Faster, more reliable journaling file system"
+					Unlock		2008
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 2; 1 ]
+					}
+				]
+			}
+			{
+			Name		"Interface"
+			Spec		"2D"
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 1; 0; 1 ]
+			Features
+				[
+					{
+					Name		"Custom themes"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Windowing system"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Unified search"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Themes"
+					DevTime		4
+					Level		1
+					CodeArt		0.5
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Widgets"
+					DevTime		3
+					Level		1
+					CodeArt		0.75
+					Submarkets	[ 1; 0; 2 ]
+					}
+					{
+					Name		"Notifications"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 1; 0 ]
+					}
+				]
+			}
+			{
+			Name		Network
+			Optional	True
+			Spec		Network
+			Description	"How will anonymous people troll each other all over the world without this handy feature?"
+			Unlock		1985
+			DevTime		8
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"Auto-update"
+					Description	"Patch bugs, malware and add newly found exploits"
+					Server		0.0002
+					DevTime		5
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 1; 0 ]
+					}
+					{
+					Name		"App store"
+					Server		0.0002
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 1; 1 ]
+					}
+					{
+					Name		"Cloud backup"
+					Server		0.0002
+					DevTime		5
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+				]
+			}
+		]
+	}

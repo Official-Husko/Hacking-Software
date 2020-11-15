@@ -1,0 +1,253 @@
+SoftwareType
+	{
+	Name			"External Game Cheat"
+	Category		"Cheats"
+	Description		"Game Cheat that runs External of the Game"
+	Random			0.1
+	Popularity		0.75
+	Retention		24
+	IdealPrice		80
+	OptimalDevTime	35
+	SubmarketNames	[ "Simplicity"; "Anti-Cheat Bypass"; "Features" ]
+	Iterative		1
+	NameGenerator	"External Cheat"
+	OSSupport		"Computer"
+	InHouse			"True"
+	Features
+		[
+			{
+			Name		"Visuals"
+			Spec		"2D"
+			Description "See Enemies, Items and other things trought walls"
+			Optional	"True"
+			DevTime		3
+			CodeArt		0.8
+			Submarkets	[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"Box ESP"
+					Description "Put lines around enemies"
+					DevTime		5
+					Level		1
+					CodeArt		1
+					Submarkets	[ 2; 0; 1 ]
+					}
+					{
+					Name		"Glow ESP"
+					Description "Enemies are Glowing"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 0; 2 ]
+					}
+					{
+					Name		"Item ESP"
+					Description "See items"
+					DevTime		5
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 0; 3 ]
+					}
+					{
+					Name		"Skeleton ESP"
+					Description "See the Skeleton of an enemy"
+					DevTime		7
+					Level		3
+					CodeArt		1
+					Submarkets	[ 0; 0; 3 ]
+					}
+					{
+					Name		"Player Line"
+					Description "Gives a line from you to all other enemies"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 1 ]
+					}
+				]
+			}
+			{
+			Name		"Aimbot"
+			Spec		"System"
+			Description "Automaticly aim at targets and hit shots almost perfect"
+			Optional	"True"
+			DevTime		8
+			CodeArt		0.8
+			Submarkets	[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"Simple Aimbot"
+					Description "Simple and basic Aimbot"
+					DevTime		6
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 1 ]
+					}
+					{
+					Name		"PSilent Aim"
+					Description "Hit targets without flicking on them"
+					DevTime		8
+					Level		3
+					CodeArt		1
+					Submarkets	[ 0; 2; 3 ]
+					}
+					{
+					Name		"Predict Aimbot"
+					Description "See items"
+					DevTime		8
+					Level		3
+					CodeArt		1
+					Submarkets	[ 0; 0; 3 ]
+					}
+					{
+					Name		"Aimbot Settings"
+					Description "Lets the user change settings from the aimbot like neck as target"
+					DevTime		8
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 0; 3 ]
+					}
+				]
+			}
+			{
+			Name		"Misc"
+			Optional	True
+			Spec		"3D"
+			Description "Other cheats like no spread or no recoil"
+			DevTime		5
+			CodeArt		0.8
+			Submarkets	[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"No Recoil"
+					Description "Removes recoil from weapons"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 1 ]
+					}
+					{
+					Name		"No Spread"
+					Description "Shot in a straight line"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 2; 3 ]
+					}
+					{
+					Name		"No Breath"
+					Description "Steady Aim"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 1; 0 ]
+					}
+				]
+			}
+			{
+			Name		"Additional"
+			Spec		"Network"
+			Optional	"False"
+			Dependencies"Game"
+			DevTime		20
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"Launcher"
+					Description	"Launch the cheat from a launcher"
+					Server		0.0002
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Mono Support"
+					Description	"Support games using mono assembly"
+					DevTime		4
+					Level		3
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"IL2CPP Support"
+					Description	"Support games using il2cpp assembly"
+					DevTime		4
+					Level		3
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Auto Update"
+					Description	"Send updates to the user directly"
+					Server		0.0002
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 1; 1 ]
+					}
+					{
+					Name		"Obfuscate Code"
+					Description	"Obfuscate the code to make the cheat harder to get patched and secure it from being stolen"
+					DevTime		7
+					Level		3
+					CodeArt		1
+					Submarkets	[ 0; 5; 0 ]
+					}
+					{
+					Name		"Randomized DLL Name"
+					Description	"Randomize the file name to enhance protection & Anti-Cheat Bypass"
+					DevTime		7
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 3; 0 ]
+					}
+				]
+			}
+			{
+			Name		"Anti-Cheat Bypasses"
+			Description	"Add Anti-Cheat Bypass to your cheat"
+			Optional	True
+			Spec		"Audio"
+			Dependencies "Anti-Cheat Bypass"
+			DevTime		5
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"EasyAntiCheat Bypass"
+					Description	"Please don't fuck or sue me EAC"
+					Unlock		2004
+					DevTime		15
+					Level		3
+					CodeArt		1
+					Submarkets	[ 0; 4; 1 ]
+					}
+					{
+					Name		"BattlEye Bypass"
+					Description	"Please don't fuck or sue me BE"
+					Unlock		2004
+					DevTime		30
+					Level		3
+					CodeArt		1
+					Submarkets	[ 0; 7; 3 ]
+					}
+					{
+					Name		"Custom Anti-Cheat Bypass"
+					Description	"Custom Anti-Cheat Bypass"
+					Dependencies "Hacking OS"
+					DevTime		12
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 7; 3 ]
+					}
+				]
+			}
+		]
+	}
