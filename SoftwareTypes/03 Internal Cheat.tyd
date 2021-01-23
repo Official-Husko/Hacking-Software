@@ -1,8 +1,8 @@
 SoftwareType
 	{
-	Name			"Anti-Cheat Bypass"
-	Category		"Anti-Cheat Bypasses"
-	Description		"Bypass anti-cheat for games"
+	Name			"Internal Game Cheat"
+	Category		"Cheats"
+	Description		"Game Cheat that runs Internal of the Game"
 	Random			0.1
 	Popularity		0.75
 	Retention		24
@@ -10,7 +10,7 @@ SoftwareType
 	OptimalDevTime	35
 	SubmarketNames	[ "Simplicity"; "Anti-Cheat Bypass"; "Features" ]
 	Iterative		1
-	NameGenerator	"External Cheat"
+	NameGenerator	"Internal Cheat"
 	OSSupport		"Computer"
 	InHouse			"True"
 	Features
@@ -95,7 +95,7 @@ SoftwareType
 					}
 					{
 					Name		"Predict Aimbot"
-					Description "See items"
+					Description "Shoot enemies over 100m or more with velocity and speed calculated"
 					DevTime		8
 					Level		3
 					CodeArt		1
@@ -104,6 +104,14 @@ SoftwareType
 					{
 					Name		"Aimbot Settings"
 					Description "Lets the user change settings from the aimbot like neck as target"
+					DevTime		8
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 0; 3 ]
+					}
+					{
+					Name		"Trigger Bot"
+					Description "Automaticly Shoot as soon as an enemy enters the crosshair"
 					DevTime		8
 					Level		2
 					CodeArt		1
@@ -127,7 +135,15 @@ SoftwareType
 					DevTime		3
 					Level		1
 					CodeArt		1
-					Submarkets	[ 1; 0; 1 ]
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Rapid Fire"
+					Description "Removes recoil from weapons"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
 					}
 					{
 					Name		"No Spread"
@@ -135,7 +151,7 @@ SoftwareType
 					DevTime		6
 					Level		2
 					CodeArt		1
-					Submarkets	[ 0; 2; 3 ]
+					Submarkets	[ 0; 0; 2 ]
 					}
 					{
 					Name		"No Breath"
@@ -143,7 +159,31 @@ SoftwareType
 					DevTime		6
 					Level		2
 					CodeArt		1
-					Submarkets	[ 1; 1; 0 ]
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Lag Switch"
+					Description "Simulate Lag in order to gain an advantage"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Free Cam"
+					Description "Simulate Lag in order to gain an advantage"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Name Spoofer"
+					Description "Simulate Lag in order to gain an advantage"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 3; 3 ]
 					}
 				]
 			}
@@ -151,6 +191,7 @@ SoftwareType
 			Name		"Additional"
 			Spec		"Network"
 			Optional	"False"
+			Dependencies"Game"
 			DevTime		20
 			CodeArt		1
 			Submarkets	[ 1; 1; 1 ]
@@ -163,7 +204,7 @@ SoftwareType
 					DevTime		4
 					Level		1
 					CodeArt		1
-					Submarkets	[ 1; 0; 0 ]
+					Submarkets	[ 1; 1; 1 ]
 					}
 					{
 					Name		"Mono Support"
@@ -188,7 +229,7 @@ SoftwareType
 					DevTime		6
 					Level		2
 					CodeArt		1
-					Submarkets	[ 1; 1; 1 ]
+					Submarkets	[ 1; 2; 1 ]
 					}
 					{
 					Name		"Obfuscate Code"
@@ -206,30 +247,40 @@ SoftwareType
 					CodeArt		1
 					Submarkets	[ 0; 3; 0 ]
 					}
+					{
+					Name		"USB Injection and Eject Method"
+					Description	"Load your cheat onto an USB and once injected remove the USB"
+					Dependencies "Hacking OS"
+					DevTime		12
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 5; 0 ]
+					}
 				]
 			}
 			{
-			Name		"Anasdasdypasses"
+			Name		"Anti-Cheat Bypasses"
 			Description	"Add Anti-Cheat Bypass to your cheat"
 			Optional	True
 			Spec		"Audio"
+			Dependencies "Anti-Cheat Bypass"
 			DevTime		5
 			CodeArt		1
 			Submarkets	[ 1; 1; 1 ]
 			Features
 				[
 					{
-					Name		"EasyAntasdasd Bypass"
-					Description	"Please adasdfuck or sue me EAC"
+					Name		"EasyAntiCheat Bypass"
+					Description	"Please don't fuck or sue me EAC"
 					Unlock		2004
 					DevTime		15
 					Level		3
 					CodeArt		1
-					Submarkets	[ 0; 4; 1 ]
+					Submarkets	[ 0; 6; 2 ]
 					}
 					{
-					Name		"Battadsd Bypass"
-					Description	"Pleaseasdasdor sue me BE"
+					Name		"BattlEye Bypass"
+					Description	"Please don't fuck or sue me BE"
 					Unlock		2004
 					DevTime		30
 					Level		3
@@ -237,12 +288,13 @@ SoftwareType
 					Submarkets	[ 0; 7; 3 ]
 					}
 					{
-					Name		"Cuasdasdd Bypass"
-					Description	"Customads Bypass"
+					Name		"Custom Anti-Cheat Bypass"
+					Description	"Custom Anti-Cheat Bypass"
+					Dependencies "Hacking OS"
 					DevTime		12
 					Level		2
 					CodeArt		1
-					Submarkets	[ 0; 7; 3 ]
+					Submarkets	[ 0; 5; 1 ]
 					}
 				]
 			}

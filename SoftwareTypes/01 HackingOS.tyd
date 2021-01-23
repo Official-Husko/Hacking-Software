@@ -2,7 +2,7 @@ SoftwareType
 	{
 	Name			"Hacking OS"
 	Category		"Hacking"
-	Description		"Hacking Targeted Operating System"
+	Description		"Complete operating system with the goal to hack"
 	NameGenerator   "HackingOS"
 	Categories
 		[
@@ -108,6 +108,33 @@ SoftwareType
 					Submarkets	[ 0; 1; 0 ]
 					}
 					{
+					Name		"EXT journaling file system"
+					Description "First implementation that used the virtual file system "
+					Unlock		1992
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 2; 1 ]
+					}
+					{
+					Name		"EXT2 journaling file system"
+					Description "improved reliability and eliminates older problems"
+					Unlock		1993
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 2; 1 ]
+					}
+					{
+					Name		"EXT3 journaling file system"
+					Description "improved reliability and eliminates older problems"
+					Unlock		2001
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 2; 1 ]
+					}
+					{
 					Name		"EXT4 journaling file system"
 					Description "Faster, more reliable journaling file system"
 					Unlock		2008
@@ -125,34 +152,34 @@ SoftwareType
 			CodeArt		1
 			Submarkets	[ 1; 0; 1 ]
 			Features
-				[
-					{
-					Name		"Custom themes"
-					DevTime		6
-					Level		2
-					CodeArt		1
-					Submarkets	[ 0; 0; 1 ]
-					}
-					{
-					Name		"Windowing system"
-					DevTime		4
-					Level		2
-					CodeArt		1
-					Submarkets	[ 0; 0; 1 ]
-					}
-					{
-					Name		"Unified search"
-					DevTime		3
-					Level		1
-					CodeArt		1
-					Submarkets	[ 1; 0; 0 ]
-					}
+			[
 					{
 					Name		"Themes"
 					DevTime		4
 					Level		1
 					CodeArt		0.5
 					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Custom Themes"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 0; 2 ]
+					}
+					{
+					Name		"Windowing System"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Unified Search"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
 					}
 					{
 					Name		"Widgets"
@@ -174,7 +201,7 @@ SoftwareType
 			Name		Network
 			Optional	True
 			Spec		Network
-			Description	"How will anonymous people troll each other all over the world without this handy feature?"
+			Description	"How do you want to hack people without network access?"
 			Unlock		1985
 			DevTime		8
 			CodeArt		1
@@ -182,7 +209,7 @@ SoftwareType
 			Features
 				[
 					{
-					Name		"Auto-update"
+					Name		"Auto-Update"
 					Description	"Patch bugs, malware and add newly found exploits"
 					Server		0.0002
 					DevTime		5
@@ -191,7 +218,8 @@ SoftwareType
 					Submarkets	[ 1; 1; 0 ]
 					}
 					{
-					Name		"App store"
+					Name		"App Store"
+					Description	"Application Store to easily download needed software"
 					Server		0.0002
 					DevTime		6
 					Level		2
@@ -199,7 +227,8 @@ SoftwareType
 					Submarkets	[ 1; 1; 1 ]
 					}
 					{
-					Name		"Cloud backup"
+					Name		"Cloud Backup"
+					Description	"Create backups of your data on a cloud"
 					Server		0.0002
 					DevTime		5
 					Level		2

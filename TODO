@@ -1,0 +1,38 @@
+
+[]  -> Name Generation
+[]      --> Custom Names for all available software types
+[]      --> Check for more name references online
+
+[]  -> Overall Mod
+[]      --> Upload First Version Today
+
+[]  -> Software types
+[X]      --> Kernel
+[X]      --> Hacking OS
+[X]      --> External Cheat
+[X]      --> Internal Cheat
+[]      --> Anti-Cheat
+[]      --> Anti-Cheat Bypass
+[]      --> VPN
+[]      --> Account Checker
+[]      --> All-In-One Tool
+[]          --> Combo Tool
+[]          --> Leecher Tool
+[]          --> Anti-Leecher Tool
+[]          --> Proxy Scraper
+[]          --> Proxy Checker
+[]          --> SQL Injection Tool
+[]      --> RAT
+[]      --> Trojan
+[]      --> Keylogger
+[]      --> BotNet
+
+[]  -> Company Types
+[]      --> Custom Company Types for all Software
+
+[]  -> Additional Modifications
+[]      --> Games can have an Anti-Cheat
+
+--------> Notes <--------
+
+Add Penalty system if caught by a company that is the target of the cheat/Hack

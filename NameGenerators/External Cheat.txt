@@ -8,6 +8,7 @@ MikeCheats
 CheatingDB
 CheatEmpire
 DeadLand
+BostonCheats
 -base2(stop,stop,ext)
  Cheat
  Hack
@@ -21,3 +22,4 @@ DeadLand
  Pro
  Undetected
  Cracked
+ Enterprise

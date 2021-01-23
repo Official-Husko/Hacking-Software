@@ -1,33 +1,33 @@
 SoftwareType
 	{
-	Name			"Anti-Cheat Bypass"
-	Category		"Anti-Cheat Bypasses"
-	Description		"Bypass anti-cheat for games"
+	Name			"Anti-Cheat"
+	Category		"Anti-Cheats"
+	Description		"Make Anti-Cheats for games"
 	Random			0.1
 	Popularity		0.75
 	Retention		24
 	IdealPrice		80
 	OptimalDevTime	35
-	SubmarketNames	[ "Simplicity"; "Anti-Cheat Bypass"; "Features" ]
+	SubmarketNames	[ "Speed & Stability"; "Anti-Tampering"; "Features" ]
 	Iterative		1
-	NameGenerator	"External Cheat"
+	NameGenerator	"Anti-Cheat"
 	OSSupport		"Computer"
 	InHouse			"True"
 	Features
 		[
 			{
-			Name		"Visuals"
+			Name		"Anti-Tampering"
 			Spec		"2D"
-			Description "See Enemies, Items and other things trought walls"
-			Optional	"True"
+			Description "Features for Anti-Tampering like memory tampering"
+			Optional	"false"
 			DevTime		3
 			CodeArt		0.8
 			Submarkets	[ 1; 1; 1 ]
 			Features
 				[
 					{
-					Name		"Box ESP"
-					Description "Put lines around enemies"
+					Name		"Anti-Memory Tampering"
+					Description "No More Tampering with memory"
 					DevTime		5
 					Level		1
 					CodeArt		1
@@ -157,15 +157,6 @@ SoftwareType
 			Features
 				[
 					{
-					Name		"Launcher"
-					Description	"Launch the cheat from a launcher"
-					Server		0.0002
-					DevTime		4
-					Level		1
-					CodeArt		1
-					Submarkets	[ 1; 0; 0 ]
-					}
-					{
 					Name		"Mono Support"
 					Description	"Support games using mono assembly"
 					DevTime		4
@@ -183,7 +174,7 @@ SoftwareType
 					}
 					{
 					Name		"Auto Update"
-					Description	"Send updates to the user directly"
+					Description	"Send updates to the games anti-cheat directly"
 					Server		0.0002
 					DevTime		6
 					Level		2
@@ -192,57 +183,11 @@ SoftwareType
 					}
 					{
 					Name		"Obfuscate Code"
-					Description	"Obfuscate the code to make the cheat harder to get patched and secure it from being stolen"
+					Description	"Obfuscate the code to make the harder for cheaters to make a cheat for the game"
 					DevTime		7
 					Level		3
 					CodeArt		1
 					Submarkets	[ 0; 5; 0 ]
-					}
-					{
-					Name		"Randomized DLL Name"
-					Description	"Randomize the file name to enhance protection & Anti-Cheat Bypass"
-					DevTime		7
-					Level		1
-					CodeArt		1
-					Submarkets	[ 0; 3; 0 ]
-					}
-				]
-			}
-			{
-			Name		"Anasdasdypasses"
-			Description	"Add Anti-Cheat Bypass to your cheat"
-			Optional	True
-			Spec		"Audio"
-			DevTime		5
-			CodeArt		1
-			Submarkets	[ 1; 1; 1 ]
-			Features
-				[
-					{
-					Name		"EasyAntasdasd Bypass"
-					Description	"Please adasdfuck or sue me EAC"
-					Unlock		2004
-					DevTime		15
-					Level		3
-					CodeArt		1
-					Submarkets	[ 0; 4; 1 ]
-					}
-					{
-					Name		"Battadsd Bypass"
-					Description	"Pleaseasdasdor sue me BE"
-					Unlock		2004
-					DevTime		30
-					Level		3
-					CodeArt		1
-					Submarkets	[ 0; 7; 3 ]
-					}
-					{
-					Name		"Cuasdasdd Bypass"
-					Description	"Customads Bypass"
-					DevTime		12
-					Level		2
-					CodeArt		1
-					Submarkets	[ 0; 7; 3 ]
 					}
 				]
 			}
